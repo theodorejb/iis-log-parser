@@ -1,0 +1,34 @@
+{
+    "name": "theodorejb/iis-log-parser",
+    "description": "Parse IIS log files",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1",
+        "psalm/plugin-phpunit": "^0.18.4",
+        "vimeo/psalm": "^5.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "theodorejb\\IISLogParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "theodorejb\\IISLogParser\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "analyze": "psalm",
+        "test": "phpunit tests"
+    },
+    "authors": [
+        {
+            "name": "Theodore Brown",
+            "email": "theodorejb@outlook.com"
+        }
+    ]
+}

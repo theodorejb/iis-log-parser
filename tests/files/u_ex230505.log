@@ -1,0 +1,93 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2023-05-05 14:23:29
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2023-05-05 14:23:29 127.0.0.1 GET /admin/ - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 - 200 0 0 206
+2023-05-05 14:23:29 127.0.0.1 GET /css/min/stateface.min.css v=1 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://master.localhost/admin/ 200 0 0 1
+2023-05-05 14:23:29 127.0.0.1 GET /css/min/bootstrap-custom.min.css - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://master.localhost/admin/ 200 0 0 7
+2023-05-05 14:23:29 127.0.0.1 GET /images/backGray.svg - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://master.localhost/css/min/tf-modern.min.css?v=3 200 0 0 1
+2023-05-05 14:23:38 127.0.0.1 GET /css/webfonts/stateface-regular-webfont.woff - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://master.localhost/css/min/stateface.min.css?v=1 200 0 0 1
+2023-05-05 14:23:40 127.0.0.1 GET /favicon.ico - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/pvasm/login.asp 200 0 64 0
+2023-05-05 14:23:40 127.0.0.1 GET /dashboard-home - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/pvasm/login.asp 302 0 0 72
+2023-05-05 14:23:40 127.0.0.1 GET /dashboard-login from=%2Fdashboard%2Dhome 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/pvasm/login.asp 200 0 0 32
+2023-05-05 14:23:40 127.0.0.1 GET /css/footable.bootstrap.min.css - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 0
+2023-05-05 14:23:40 127.0.0.1 GET /jQuery/tableSorter/themes/blue/style.css - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 0
+2023-05-05 14:23:40 127.0.0.1 GET /jQuery/jquery.formatCurrency-1.4.0.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 7
+2023-05-05 14:23:40 127.0.0.1 GET /jQuery/tableSorter/jquery.tablesorter.min.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 13
+2023-05-05 14:23:40 127.0.0.1 GET /jQuery/autonumeric.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 15
+2023-05-05 14:23:40 127.0.0.1 GET /js/footable.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 9
+2023-05-05 14:23:40 127.0.0.1 GET /js/footable.sort.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 2
+2023-05-05 14:23:40 127.0.0.1 GET /js/min/jsForms.min.js v=1.15 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 13
+2023-05-05 14:23:40 127.0.0.1 GET /js/min/jsFunctions2.min.js v=2 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 35
+2023-05-05 14:23:40 127.0.0.1 GET /js/min/jquery_init.min.js v=1.04 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 304 0 0 28
+2023-05-05 14:23:44 127.0.0.1 POST /dashboard-login from=%2Fdashboard%2Dhome 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 302 0 0 39
+2023-05-05 14:23:44 127.0.0.1 GET /dashboard-home - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome 200 0 0 105
+2023-05-05 14:23:44 127.0.0.1 GET /js/min/jquery_init.min.js v=1.05 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-home 304 0 0 5
+2023-05-05 14:23:52 127.0.0.1 GET /js/datepicker/bootstrap-datetimepicker.min.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/bank-authentication?1=1&MLNumber= 304 0 0 17
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2023-05-05 14:41:31
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2023-05-05 14:41:31 127.0.0.1 GET /home - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/admin-tf-agent-list 200 0 0 10
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/entry/app.97a411e4.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/home 200 0 0 19
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/entry/start.508e2782.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/home 200 0 0 23
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/control.e7f5239e.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/entry/start.508e2782.js 200 0 0 4
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/singletons.cb5b63a6.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/entry/start.508e2782.js 200 0 0 5
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/index.e497898d.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/entry/app.97a411e4.js 304 0 0 8
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/index.bd3423f1.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/singletons.cb5b63a6.js 200 0 0 3
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/assets/_layout.fb039b67.css - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/home 304 0 0 0
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/0.fbb231c9.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/entry/app.97a411e4.js 304 0 0 3
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/1.f6d7c151.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/entry/app.97a411e4.js 304 0 0 3
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/5.0fe37844.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/entry/app.97a411e4.js 304 0 0 4
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/2.c2b1034d.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/entry/app.97a411e4.js 304 0 0 5
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/_layout.e4a84b88.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/0.fbb231c9.js 304 0 0 4
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/entry/_error.svelte.ed3bc1df.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/1.f6d7c151.js 304 0 0 7
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/_page.17d03731.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/5.0fe37844.js 200 0 0 12
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/_layout.4db16ff8.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/2.c2b1034d.js 200 0 0 12
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/entry/(auth)-layout.svelte.e094b8c5.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/2.c2b1034d.js 200 0 0 15
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/entry/(auth)-home-page.svelte.15b628dd.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/5.0fe37844.js 200 0 0 17
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/stores.a55b62e2.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/entry/_error.svelte.ed3bc1df.js 200 0 0 7
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/index.1de1fe79.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/_layout.4db16ff8.js 304 0 0 0
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/es-cookie.ba6dde4a.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/_layout.4db16ff8.js 304 0 0 0
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/HeaderAndFooter.82a1a976.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/entry/(auth)-layout.svelte.e094b8c5.js 200 0 0 0
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/state.e5b62414.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/_page.17d03731.js 200 0 0 9
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/entry/_layout.svelte.27e30560.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/0.fbb231c9.js 304 0 0 29
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/Api.412f8bb1.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/_layout.4db16ff8.js 304 0 0 7
+2023-05-05 14:41:31 127.0.0.1 GET /_app/immutable/chunks/MainContent.80206813.js - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/chunks/HeaderAndFooter.82a1a976.js 200 0 0 4
+2023-05-05 14:41:31 127.0.0.1 GET /api/me - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/home 200 0 0 311
+2023-05-05 14:41:31 127.0.0.1 GET /images/lightbulb-arrow.svg - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/_app/immutable/assets/_layout.fb039b67.css 304 0 0 1
+2023-05-05 14:41:47 127.0.0.1 GET /home - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/tf-brokers 200 0 64 1
+2023-05-05 14:41:47 127.0.0.1 GET /api/me - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/home 200 0 0 10
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2023-05-05 15:25:22
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2023-05-05 15:25:22 127.0.0.1 POST /saml/acs - 80 - 127.0.0.1 insomnia/2023.2.0 - 405 0 1 78
+2023-05-05 15:25:28 127.0.0.1 POST /saml/acs/ - 80 - 127.0.0.1 insomnia/2023.2.0 - 400 0 0 155
+2023-05-05 15:25:28 ::1 GET /css/min/bootstrap-custom.min.css - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Insomnia/2023.2.0+Chrome/108.0.5359.62+Electron/22.0.0+Safari/537.36 - 200 0 0 6
+2023-05-05 15:27:04 127.0.0.1 POST /view-error - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/view-error 200 0 0 39
+2023-05-05 15:27:14 127.0.0.1 POST /view-error - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/view-error 200 0 0 90
+2023-05-05 15:38:26 127.0.0.1 GET /dashboard-home - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/pvasm/login.asp 200 0 0 115
+2023-05-05 15:39:04 127.0.0.1 GET /images/captureIcons/Report.png - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/broker-agents?1=1 200 0 0 0
+2023-05-05 15:39:04 127.0.0.1 GET /images/captureIcons/Search.png - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/broker-agents?1=1 200 0 0 1
+2023-05-05 15:39:04 127.0.0.1 GET /jQuery/tableSorter/themes/blue/bg.gif - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/jQuery/tableSorter/themes/blue/style.css 200 0 0 0
+2023-05-05 15:39:04 127.0.0.1 GET /jQuery/tableSorter/themes/blue/desc.gif - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/jQuery/tableSorter/themes/blue/style.css 200 0 0 0
+2023-05-05 15:39:09 127.0.0.1 GET /jQuery/tableSorter/themes/blue/asc.gif - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/jQuery/tableSorter/themes/blue/style.css 200 0 0 0
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2023-05-05 17:52:29
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status time-taken
+2023-05-05 17:54:23 127.0.0.1 POST /index.asp - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://master.localhost/pvasm/modules/themes/tf/pvasmHeader.asp?siteID=329 master.localhost 200 0 0 62
+2023-05-05 17:57:43 127.0.0.1 GET /my-member-transactions 1=1&doIt=X 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/member-offices?1=1 main.localhost 302 0 0 41
+2023-05-05 17:57:43 127.0.0.1 GET /member-login - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/member-offices?1=1 main.localhost 200 0 0 34
+2023-05-05 17:59:42 127.0.0.1 GET /index.asp fromAdmin=X&sectOnly=&showElements=X&pageID=47&elemCatID=&areaStrAry=&liveElemStrAry= 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://master.localhost/pvasm/modules/recordManager/editTable.asp?areaID=2&fromIndex=X&sectOnly=&fromIndexpageID=47&table=elements&action=List&IDcol=elementID&recID=8061&elemCatID=&areaStrAry= master.localhost 200 0 0 80
+2023-05-05 17:59:46 127.0.0.1 GET /payment-status 1=1&norefresh=X 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/my-agent-transactions?1=1&doIt=X main.localhost 200 0 0 54
+2023-05-05 18:01:38 127.0.0.1 GET /msg - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/my-agent-transactions?1=1&doIt=X main.localhost 200 0 0 35
+2023-05-05 18:01:44 127.0.0.1 GET /dashboard-home - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/pvasm/login.asp main.localhost 302 0 0 9
+2023-05-05 18:01:44 127.0.0.1 GET /dashboard-login from=%2Fdashboard%2Dhome 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/pvasm/login.asp main.localhost 200 0 0 26
+2023-05-05 18:01:47 127.0.0.1 POST /dashboard-login from=%2Fdashboard%2Dhome 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome main.localhost 302 0 0 32
+2023-05-05 18:01:47 127.0.0.1 GET /dashboard-home - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-login?from=%2Fdashboard%2Dhome main.localhost 200 0 0 91
+2023-05-05 18:01:47 127.0.0.1 GET /images/captureIcons/Cancel2.png - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/dashboard-home main.localhost 200 0 64 1
+2023-05-05 18:01:51 127.0.0.1 GET /agent-login doIt=X&fs=X&mlsID=2&login=11111111 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 http://main.localhost/admin-tf-agent-list main.localhost 302 0 0 33
+2023-05-05 18:03:52 127.0.0.1 GET / - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 - main.localhost 302 0 0 8
+2023-05-05 18:03:58 127.0.0.1 GET /system-message - 80 - 127.0.0.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/112.0 - main.localhost 200 0 0 30
