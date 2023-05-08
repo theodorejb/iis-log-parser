@@ -9,7 +9,11 @@ Supports the standard W3C log file format with default fields as well as the opt
 
 ## Usage
 
-Construct an `IISLogFile` instance with an `SplFileObject` object:
+Construct an `SplFileObject` instance for the IIS log file to be parsed.
+Then call the `IISLogFile::getEntries` static method, passing it the `SplFileObject`.
+This returns a generator which yields an `IISLogEntry` object for each entry in the file.
+
+Code example which iterates over the entries of all log files in a directory:
 
 ```php
 use theodorejb\IISLogParser\IISLogFile;
@@ -50,3 +54,9 @@ The `IISLogEntry` class has the following public properties:
 * `int $timeTakenMs`
 
 It also has a public `getUriExtension()` method.
+
+## Required fields
+
+Only the Date and Time logging fields (used for the `$date` property) are required.
+Other properties will be set to a blank string (or 0, for int properties)
+if the associated logging field is absent.
