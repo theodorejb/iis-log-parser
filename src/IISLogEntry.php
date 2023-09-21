@@ -57,6 +57,12 @@ class IISLogEntry
         $dotPos = strrpos($this->uri, '.');
 
         if ($dotPos !== false) {
+            $slashPos = strpos($this->uri, '/', $dotPos);
+
+            if ($slashPos !== false) {
+                return ''; // dot was part of a directory name, not an extension
+            }
+
             return strtolower(substr($this->uri, $dotPos));
         }
 

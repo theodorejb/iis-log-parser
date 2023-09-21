@@ -39,10 +39,10 @@ class IISLogFileTest extends TestCase
         }
 
         $this->assertSame(2, $totalErrors);
-        $this->assertSame(32, $totalRedirects);
+        $this->assertSame(33, $totalRedirects);
         $this->assertSame(50, $staticRequests);
         $this->assertSame(363, $staticTimeMs);
-        $this->assertSame(27, $dynamicRequests);
-        $this->assertSame(1798, $dynamicTimeMs);
+        $this->assertSame(28, $dynamicRequests);
+        $this->assertSame(1874, $dynamicTimeMs);
     }
 }
