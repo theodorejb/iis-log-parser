@@ -2,7 +2,7 @@
 
 namespace theodorejb\IISLogParser;
 
-class IISLogFile
+final class IISLogFile
 {
     /**
      * @return \Generator<IISLogEntry>

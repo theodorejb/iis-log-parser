@@ -5,7 +5,7 @@ namespace theodorejb\IISLogParser\Tests;
 use PHPUnit\Framework\TestCase;
 use theodorejb\IISLogParser\IISLogFile;
 
-class IISLogFileTest extends TestCase
+final class IISLogFileTest extends TestCase
 {
     public function testGetFileStats(): void
     {
